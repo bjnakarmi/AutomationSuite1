@@ -1,0 +1,5 @@
+Selenium
+webdriver-manager
+pytest
+requests
+pytest-html

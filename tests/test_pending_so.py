@@ -1,4 +1,3 @@
-import pytest
 from utils import api_helpers
 
 def test_pending_state_owner():

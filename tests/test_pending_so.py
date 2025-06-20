@@ -7,4 +7,4 @@ def test_pending_state_owner():
     response = api_helpers.get_all_pending_owner(headers)
     data = response.json()
     assert response.status_code == 200
-    assert 'data' in data
+    assert 'data' in data, 'should pass'
